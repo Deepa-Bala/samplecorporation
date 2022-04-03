@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.turquoise_x002D_green{fill:#4FC2BE;}
+	.dark_x002D_blue{fill:#1D2D5B;}
+	.white{fill:#FFFFFF;}
+	.button_x002D_grey{fill:#D1D3D4;}
+	.dark_x002D_blue_x002D_line{fill:none;stroke:#1D2D5B;stroke-width:2;stroke-miterlimit:10;}
+	.dark_x002D_blue_x002D_small_x002D_line{fill:none;stroke:#1D2D5B;stroke-width:0.6603;stroke-miterlimit:10;}
+	.st0{fill:#E6E7E8;}
+	.st1{opacity:0.7;fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#1D2D5B;}
+	.st4{font-family:'AbroSans-Regular';}
+	.st5{font-size:30px;}
+	.st6{fill:none;stroke:#1D2D5B;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:#D1D3D4;}
+	.st8{fill:none;stroke:#1D2D5B;stroke-width:0.6603;stroke-miterlimit:10;}
+	.st9{fill:#4FC2BE;}
+	.st10{font-size:20px;}
+	.st11{fill:none;stroke:#4FC2BE;stroke-width:3;stroke-miterlimit:10;}
+	.st12{font-size:56.9087px;}
+</style>
+<g id="home-bg-image">
+	<rect id="image-area" y="217.21" class="st0" width="1920" height="862.79"/>
+</g>
+<g id="wave">
+	<path id="wave1" class="white" d="M0,798.32c0,0,486.8-142.69,1028.8-8.69s891.2,28.02,891.2,28.02V1080H0V798.32z"/>
+</g>
+<g id="img-slider-dots">
+	<g id="dots">
+		<circle id="dot4" class="st1" cx="1005.8" cy="703.03" r="9"/>
+		<circle id="dot3" class="st2" cx="975.27" cy="703.03" r="9"/>
+		<circle id="dot2_1_" class="st1" cx="944.73" cy="703.03" r="9"/>
+		<circle id="dot1" class="st1" cx="914.2" cy="703.03" r="9"/>
+	</g>
+</g>
+<g id="home-scroll-button">
+	<rect id="Explore-button" x="852.52" y="930.09" class="turquoise_x002D_green" width="214.96" height="59.34"/>
+	<g id="Explore-text">
+		<text transform="matrix(1 0 0 1 904.6367 966.8444)" class="st3 st4 st5">Explore</text>
+	</g>
+	<polyline id="move-down-arrow2" class="st6" points="975.87,1008.37 960,1035.86 944.13,1008.37 	"/>
+	<polyline id="move-down-arrow1" class="st6" points="975.87,1021.18 960,1048.68 944.13,1021.18 	"/>
+</g>
+<g id="img-slider-buttons">
+	<rect id="img-slider-button-right" x="1823.12" y="468.59" class="st7" width="35.63" height="35.63"/>
+	<polyline id="img-slider-arrow-left_1_" class="st8" points="1836.83,475.1 1848.59,486.86 1835.89,499.57 	"/>
+	
+		<rect id="img-slider-button-left" x="55.79" y="468.59" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 147.2196 972.811)" class="button_x002D_grey" width="35.63" height="35.63"/>
+	<polyline id="img-slider-arrow-left" class="dark_x002D_blue_x002D_small_x002D_line" points="77.72,497.71 65.96,485.95 
+		78.66,473.24 	"/>
+</g>
+<g id="Header">
+	<rect id="bluebar" x="217.21" class="dark_x002D_blue" width="1702.79" height="217.21"/>
+	<rect id="rectangle" x="1036.72" y="94.2" class="st9" width="121.7" height="33.63"/>
+	<text transform="matrix(1 0 0 1 1066.9885 117.9646)" class="st3 st4 st10">Home</text>
+	<text transform="matrix(1 0 0 1 1175.7078 117.9645)" class="st9 st4 st10">About</text>
+	<text transform="matrix(1 0 0 1 1380.415 117.9644)" class="st9 st4 st10">Contact</text>
+	<text transform="matrix(1 0 0 1 1269.2874 117.9648)" class="st9 st4 st10">Services</text>
+	<g id="Hamburder_icon">
+		<line id="HB-bottom" class="st11" x1="1806.97" y1="97.68" x2="1859.6" y2="97.68"/>
+		<line id="HB-center" class="st11" x1="1806.97" y1="109.16" x2="1859.6" y2="109.16"/>
+		<line id="HB-top" class="st11" x1="1806.97" y1="120.63" x2="1859.6" y2="120.63"/>
+	</g>
+	<text id="Ganesh-Corp-name" transform="matrix(1 0 0 1 247.588 128.1035)" class="st9 st4 st12">Ganesh Corporation</text>
+	<g id="logo">
+		<g id="Logo-group">
+			<rect id="background-white" class="st2" width="217.21" height="217.21"/>
+			<g id="logo_1_">
+				
+					<rect id="bottom-rect-blue" x="91.6" y="139.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -79.0021 122.6964)" class="st3" width="34.02" height="34.02"/>
+				
+					<rect id="center-rect-green" x="97.27" y="97.27" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -44.9863 108.6066)" class="st9" width="22.68" height="22.68"/>
+				<path id="left-wing" class="st3" d="M104.6,88.56L94.58,78.54c-7.75-7.75-20.31-7.75-28.06,0l-6.01,6.01l-4.01,4.01L37.45,107.6
+					c-0.55,0.55-0.55,1.45,0,2l23.05,23.05l6.01,6.01c7.75,7.75,20.31,7.75,28.06,0l10.02-10.02l-20.04-20.04L104.6,88.56z"/>
+				<path id="right-wing" class="st3" d="M179.76,107.6l-19.04-19.04l-4.01-4.01l-6.01-6.01c-7.75-7.75-20.31-7.75-28.06,0
+					l-10.02,10.02l20.04,20.04l-20.04,20.04l10.02,10.02c7.75,7.75,20.31,7.75,28.06,0l6.01-6.01l23.05-23.05
+					C180.32,109.06,180.32,108.16,179.76,107.6z"/>
+				
+					<rect id="top-rect-blue" x="91.6" y="43.49" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -10.9706 94.5168)" class="st3" width="34.02" height="34.02"/>
+			</g>
+		</g>
+	</g>
+	<line id="line-logo-div" class="dark_x002D_blue_x002D_line" x1="0" y1="216.21" x2="218.53" y2="216.21"/>
+</g>
+<g id="truck">
+	<g id="wheel">
+	</g>
+	<g>
+		<g id="rear-wheel">
+			<path class="st3" d="M284.73,205.14c0,2.15-0.57,4.16-1.59,5.91l-5.8-3.33c0.44-0.76,0.7-1.64,0.7-2.58
+				c0-0.93-0.24-1.81-0.7-2.56l5.8-3.35C284.15,200.98,284.73,202.99,284.73,205.14z"/>
+			<path class="st9" d="M283.14,199.23l-5.8,3.35c-0.88-1.54-2.54-2.58-4.44-2.58v-6.69C277.28,193.31,281.1,195.69,283.14,199.23z"
+				/>
+			<path class="st3" d="M272.9,193.31V200c-1.9,0-3.57,1.04-4.44,2.58l-5.8-3.35C264.69,195.69,268.51,193.31,272.9,193.31z"/>
+			<path class="st9" d="M267.75,205.14c0,0.94,0.26,1.82,0.7,2.58l-5.8,3.33c-1.01-1.75-1.59-3.76-1.59-5.91
+				c0-2.15,0.57-4.16,1.59-5.91l5.8,3.35C268,203.33,267.75,204.21,267.75,205.14z"/>
+			<path class="st3" d="M272.9,210.28v6.69c-4.38,0-8.21-2.38-10.25-5.92l5.8-3.33C269.33,209.25,270.99,210.28,272.9,210.28z"/>
+			<path class="st9" d="M283.14,211.05c-2.04,3.54-5.86,5.92-10.25,5.92v-6.69c1.89,0,3.55-1.03,4.44-2.56L283.14,211.05z"/>
+			<path class="st3" d="M278.04,205.14c0,0.94-0.26,1.82-0.7,2.58c-0.89,1.54-2.55,2.56-4.44,2.56c-1.9,0-3.57-1.03-4.44-2.56
+				c-0.44-0.76-0.7-1.64-0.7-2.58c0-0.93,0.24-1.81,0.7-2.56c0.88-1.54,2.54-2.58,4.44-2.58c1.9,0,3.57,1.04,4.44,2.58
+				C277.79,203.33,278.04,204.21,278.04,205.14z"/>
+			<circle class="st2" cx="272.89" cy="205.14" r="2.45"/>
+			<g>
+				<path class="st2" d="M272.89,194.32c5.97,0,10.83,4.86,10.83,10.83s-4.86,10.83-10.83,10.83s-10.83-4.86-10.83-10.83
+					S266.92,194.32,272.89,194.32 M272.89,193.07c-6.67,0-12.07,5.4-12.07,12.07s5.4,12.07,12.07,12.07
+					c6.67,0,12.07-5.4,12.07-12.07S279.56,193.07,272.89,193.07L272.89,193.07z"/>
+			</g>
+		</g>
+		<g id="front-wheel">
+			<path class="st3" d="M325.9,205.14c0,2.15,0.57,4.16,1.59,5.91l5.8-3.33c-0.44-0.76-0.7-1.64-0.7-2.58c0-0.93,0.24-1.81,0.7-2.56
+				l-5.8-3.35C326.48,200.98,325.9,202.99,325.9,205.14z"/>
+			<path class="st9" d="M327.49,199.23l5.8,3.35c0.88-1.54,2.54-2.58,4.44-2.58v-6.69C333.35,193.31,329.53,195.69,327.49,199.23z"
+				/>
+			<path class="st3" d="M337.74,193.31V200c1.9,0,3.57,1.04,4.44,2.58l5.8-3.35C345.94,195.69,342.12,193.31,337.74,193.31z"/>
+			<path class="st9" d="M342.88,205.14c0,0.94-0.26,1.82-0.7,2.58l5.8,3.33c1.01-1.75,1.59-3.76,1.59-5.91
+				c0-2.15-0.57-4.16-1.59-5.91l-5.8,3.35C342.63,203.33,342.88,204.21,342.88,205.14z"/>
+			<path class="st3" d="M337.74,210.28v6.69c4.38,0,8.21-2.38,10.25-5.92l-5.8-3.33C341.3,209.25,339.64,210.28,337.74,210.28z"/>
+			<path class="st9" d="M327.49,211.05c2.04,3.54,5.86,5.92,10.25,5.92v-6.69c-1.89,0-3.55-1.03-4.44-2.56L327.49,211.05z"/>
+			<path class="st3" d="M332.6,205.14c0,0.94,0.26,1.82,0.7,2.58c0.89,1.54,2.55,2.56,4.44,2.56c1.9,0,3.57-1.03,4.44-2.56
+				c0.44-0.76,0.7-1.64,0.7-2.58c0-0.93-0.24-1.81-0.7-2.56c-0.88-1.54-2.54-2.58-4.44-2.58s-3.57,1.04-4.44,2.58
+				C332.84,203.33,332.6,204.21,332.6,205.14z"/>
+			<circle class="st2" cx="337.74" cy="205.14" r="2.45"/>
+			<g>
+				<path class="st2" d="M337.74,194.32c5.97,0,10.83,4.86,10.83,10.83s-4.86,10.83-10.83,10.83s-10.83-4.86-10.83-10.83
+					S331.77,194.32,337.74,194.32 M337.74,193.07c-6.67,0-12.07,5.4-12.07,12.07s5.4,12.07,12.07,12.07
+					c6.67,0,12.07-5.4,12.07-12.07S344.41,193.07,337.74,193.07L337.74,193.07z"/>
+			</g>
+		</g>
+		<g id="Truck-body">
+			<path id="truck-body" class="st2" d="M357.12,165.16v35.9h-5.47c-1.77-6.02-7.32-10.41-13.91-10.41
+				c-6.59,0-12.14,4.4-13.91,10.41h-37.02c-1.77-6.02-7.32-10.41-13.91-10.41c-6.59,0-12.14,4.4-13.91,10.41h-11.32V185.6H322
+				v-35.08h20.49C350.57,150.52,357.12,157.07,357.12,165.16z"/>
+			<path id="truck-window" class="st3" d="M348.44,178.73h-13.15v-18.29h7.03c3.38,0,6.12,2.74,6.12,6.12V178.73z"/>
+		</g>
+		<g id="truck-boxes">
+			<rect id="box-2" x="262.65" y="162.72" class="st9" width="22.68" height="22.68"/>
+			<rect id="box-1" x="289.72" y="162.72" class="st9" width="22.68" height="22.68"/>
+		</g>
+	</g>
+</g>
+</svg>
