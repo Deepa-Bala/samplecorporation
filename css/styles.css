@@ -81,7 +81,7 @@ body, html{
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 30px;
     text-decoration: none;
     white-space: nowrap;
   }
@@ -465,7 +465,15 @@ body, html{
     padding: 0;
     overflow-y: visible;
   }
-  
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+   
+    color:#1D2D5B!important;
+    background: #4FC2BE;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color:#1D2D5B!important;
+    background: #4FC2BE;
+  }
   .navbar-light .navbar-brand {
     color: rgba(0, 0, 0, 0.9);
   }
@@ -743,5 +751,12 @@ body, html{
       }
 .page-section{
    padding: 6rem 0;
+}
+.things{
+  overflow:hidden;
+  height:500px;
+}
+.lead-buy{
+  color:#4FC2BE;
 }
       
