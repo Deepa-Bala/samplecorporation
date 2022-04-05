@@ -642,8 +642,9 @@ body, html{
         height:75px;
         width:100px;
       }
-      .carousel-image{
-        height:600px;
+      .carousel-item{
+        overflow: hidden;
+        height: 600px;
       }
       .explore-container{
         position: absolute;
@@ -656,7 +657,6 @@ body, html{
         height: 50px;
         width:150px;
         color: #FFFFFF !important;
-        border-radius: 20px;
         text-decoration: none;  
         align-items: center;
         justify-content: center;
