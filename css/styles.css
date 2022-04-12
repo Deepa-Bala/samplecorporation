@@ -10,8 +10,24 @@
   font-style: normal;
 }
 body, html{
+    margin: 0;
+    padding: 0;
     font-family: 'AbroSans-Regular';
+    height: 100%;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+  
 .bg-secondary {
     background-color: #1D2D5B !important;
   }
@@ -23,8 +39,8 @@ body, html{
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right:  0.75rem;
+  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -470,7 +486,9 @@ body, html{
     color:#1D2D5B!important;
     background: #4FC2BE;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, 
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, 
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
     color:#1D2D5B!important;
     background: #4FC2BE;
   }
@@ -637,14 +655,13 @@ body, html{
       .carousel-indicators [data-bs-target] {
         width: 8px;
         height: 8px;
-        border-radius: 50%;
         background-color: rgba(54, 68, 72, 0.25);
         margin-top: 0px;
         border: none;
       }
       .carousel-indicators .active {
         opacity: 1;
-        background-color: #4bb2fd;
+        background-color: #4FC2BE;
       }
       #truck_svg{
         height:75px;
@@ -652,12 +669,12 @@ body, html{
       }
       .carousel-item{
         overflow: hidden;
-        height: 600px;
+        height: 80vh;
       }
       .explore-container{
         position: absolute;
         bottom: 90px;
-        left: 45%
+        left: 46%
       }
       
       .explorebutton{
@@ -707,7 +724,6 @@ body, html{
         height: 72px;
         position: absolute;
         left: 50%;
-        margin-left: -30px;
         bottom: 10px;
       }
       
@@ -759,7 +775,8 @@ body, html{
 .lead-buy{
   color:#4FC2BE;
 }
-   .metal-div{
+.metal-div{
   height:200px;
   overflow: hidden;
-}   
+}
+      
