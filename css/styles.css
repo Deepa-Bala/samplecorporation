@@ -14,6 +14,8 @@ body, html{
     padding: 0;
     font-family: 'AbroSans-Regular';
     height: 100%;
+    color:#1D2D5B;
+   
 }
 *,
 *::before,
@@ -72,7 +74,7 @@ body, html{
 }
 
 
-.navbar {
+/*.navbar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +82,7 @@ body, html{
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
+  }*/
   .navbar > .container,
   .navbar > .container-fluid,
   .navbar > .container-sm,
@@ -135,6 +137,10 @@ body, html{
     border: 0.125rem solid transparent;
     border-radius: 0.5rem;
     transition: box-shadow 0.15s ease-in-out;
+  }
+  .navbar-nav li{
+    height: 40px;
+    width: 100px;
   }
   @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
@@ -239,6 +245,7 @@ body, html{
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
+      justify-content: end;
     }
     .navbar-expand-md .navbar-toggler {
       display: none;
@@ -481,10 +488,14 @@ body, html{
     padding: 0;
     overflow-y: visible;
   }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link{
+    text-align: center;
+
+  }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-   
     color:#1D2D5B!important;
     background: #4FC2BE;
+    text-align: center;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, 
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, 
@@ -648,14 +659,11 @@ body, html{
           font-size:24px;
         }
       }
-      #carouselExampleCaptions{
-        height: 500px;
-      }
-      
+    
       .carousel-indicators [data-bs-target] {
-        width: 8px;
-        height: 8px;
-        background-color: rgba(54, 68, 72, 0.25);
+        width: 14px;
+        height: 14px;
+        background-color: #1D2D5B;
         margin-top: 0px;
         border: none;
       }
@@ -668,31 +676,30 @@ body, html{
         width:100px;
       }
       .carousel-item{
+        height:100vh;
         overflow: hidden;
-        height: 80vh;
       }
       .explore-container{
         position: absolute;
-        bottom: 90px;
-        left: 46%
+        bottom: 25%;
+        
       }
       
       .explorebutton{
         background-color:#4FC2BE !important;
-        height: 50px;
-        width:150px;
-        color: #FFFFFF !important;
+        height: 40px;
+        width:100px;
+        color: #1D2D5B !important;
         text-decoration: none;  
-        align-items: center;
-        justify-content: center;
-        overflow: hidden; 
-        
+        align-items: center; 
+        text-align: center;
+        padding: 6px;       
       }
 
       #explore-button a {
         position: relative;
         transition: all .35s ease-Out;
-        color: #FFFFFF !important;
+        color: #1D2D5B !important;
         text-decoration: none;  
       }
       
@@ -714,17 +721,13 @@ body, html{
         color: #4FC2BE !important;
       }
 
-      #explore-button{
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-      }
+     
       .arrows {
         width: 60px;
         height: 72px;
         position: absolute;
-        left: 50%;
-        bottom: 10px;
+       
+        bottom: 10%;
       }
       
       .arrows path {
@@ -766,6 +769,7 @@ body, html{
         -webkit-animation-delay:0s; /* Safari 和 Chrome */
       }
 .page-section{
+   margin: 2rem 0;
    padding: 6rem 0;
 }
 .things{
@@ -779,4 +783,114 @@ body, html{
   height:200px;
   overflow: hidden;
 }
-      
+#truck_svg {
+  overflow: visible;
+  height: 100%;
+  background: #1D2D5B;
+  
+  /* Fix Safari rendering bug */
+  transform: translateZ(0);
+}
+#path_truck {
+  stroke-width: 0;
+  stroke: gray;
+}
+#waves_container{
+  position: relative;
+  width: 100%;
+}
+#waves_container .wave {
+  position:absolute;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height: 100px;
+  background: url(../assets/img/wave.svg);
+  background-size: 1000px 100px;
+}
+.wave.wave1{
+  animation : animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+.wave.wave2{
+  animation : animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+.wave.wave3{
+  animation : animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+.wave.wave4{
+  animation : animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes animate{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate2{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: -1000px;
+  }
+}
+.container3{
+  position:absolute;
+  top:25%;
+  left:100px;
+  height:100%;
+}
+.container4{
+  position:absolute;
+  top:25%;
+  right:100px;
+  height:100%;
+}
+.container3 h1{
+  position: relative;
+  right: 8px;
+  font-size: 26px;
+  line-height:1.5;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #4FC2BE;
+}
+.container4 h1{
+  position: relative;
+  text-align: right;
+  right: 8px;
+  font-size: 26px;
+  line-height:1.5;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #4FC2BE;
+}
+.DealContainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  background-color: #1D2D5B;;
+}
